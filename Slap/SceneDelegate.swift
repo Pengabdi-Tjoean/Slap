@@ -24,12 +24,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         configureNavigationBar()
     }
     
-    func createJoinEventVC() -> UINavigationController {
-        let joinEventVC = JoinEventVC()
-        joinEventVC.title = "Join Event"
-        joinEventVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
+    func createDiscoverVC() -> UINavigationController {
+        let discoverVC = DiscoverVC()
+        discoverVC.title = "Discover"
+        discoverVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
         
-        return UINavigationController(rootViewController: joinEventVC)
+        return UINavigationController(rootViewController: discoverVC)
     }
 
     func createAddEventVC() -> UINavigationController {
@@ -51,7 +51,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func createTabbar() -> UITabBarController {
         let tabbar = UITabBarController()
         UITabBar.appearance().tintColor = .systemGreen
-        tabbar.viewControllers = [createJoinEventVC(), createAddEventVC(), createProfileVC()]
+        tabbar.viewControllers = [createDiscoverVC(), createAddEventVC(), createProfileVC()]
         
         let tabBarAppearance: UITabBarAppearance = UITabBarAppearance()
         UITabBar.appearance().scrollEdgeAppearance = tabBarAppearance

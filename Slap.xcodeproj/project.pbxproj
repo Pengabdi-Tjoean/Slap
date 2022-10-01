@@ -14,6 +14,9 @@
 		4D22C1A228E777B6002E3EC3 /* JoinEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C1A128E777B6002E3EC3 /* JoinEventVC.swift */; };
 		4D22C1A428E78AEA002E3EC3 /* AddEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C1A328E78AEA002E3EC3 /* AddEventVC.swift */; };
 		4D22C1A628E81A54002E3EC3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C1A528E81A54002E3EC3 /* ProfileVC.swift */; };
+		4D22C1AA28E831AE002E3EC3 /* SLTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C1A928E831AE002E3EC3 /* SLTitleLabel.swift */; };
+		4D22C1AC28E8322D002E3EC3 /* DiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C1AB28E8322D002E3EC3 /* DiscoverVC.swift */; };
+		4D22C1AE28E8325D002E3EC3 /* DetailEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C1AD28E8325D002E3EC3 /* DetailEventVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		4D22C1A128E777B6002E3EC3 /* JoinEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinEventVC.swift; sourceTree = "<group>"; };
 		4D22C1A328E78AEA002E3EC3 /* AddEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventVC.swift; sourceTree = "<group>"; };
 		4D22C1A528E81A54002E3EC3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		4D22C1A928E831AE002E3EC3 /* SLTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLTitleLabel.swift; sourceTree = "<group>"; };
+		4D22C1AB28E8322D002E3EC3 /* DiscoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverVC.swift; sourceTree = "<group>"; };
+		4D22C1AD28E8325D002E3EC3 /* DetailEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +71,10 @@
 				4D22C19B28E774C8002E3EC3 /* Info.plist */,
 				4D22C1A128E777B6002E3EC3 /* JoinEventVC.swift */,
 				4D22C1A328E78AEA002E3EC3 /* AddEventVC.swift */,
+				4D22C1AD28E8325D002E3EC3 /* DetailEventVC.swift */,
+				4D22C1AB28E8322D002E3EC3 /* DiscoverVC.swift */,
 				4D22C1A528E81A54002E3EC3 /* ProfileVC.swift */,
+				4D22C1A928E831AE002E3EC3 /* SLTitleLabel.swift */,
 			);
 			path = Slap;
 			sourceTree = "<group>";
@@ -141,7 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D22C1A628E81A54002E3EC3 /* ProfileVC.swift in Sources */,
+				4D22C1AC28E8322D002E3EC3 /* DiscoverVC.swift in Sources */,
 				4D22C18E28E774C7002E3EC3 /* AppDelegate.swift in Sources */,
+				4D22C1AA28E831AE002E3EC3 /* SLTitleLabel.swift in Sources */,
+				4D22C1AE28E8325D002E3EC3 /* DetailEventVC.swift in Sources */,
 				4D22C1A228E777B6002E3EC3 /* JoinEventVC.swift in Sources */,
 				4D22C19028E774C7002E3EC3 /* SceneDelegate.swift in Sources */,
 				4D22C1A428E78AEA002E3EC3 /* AddEventVC.swift in Sources */,
